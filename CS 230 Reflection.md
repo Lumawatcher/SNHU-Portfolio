@@ -1,4 +1,5 @@
 # CS-230-Portfolio
+CS 230 - Operating Platforms
 
 The Gaming Room was a client that requested that we make their web based game with a client-server programming patttern. They also requested that their game be available on MAC, IOS, Android and Windows. While designing their program, considering the client's requirements and attempting to optimize their existing programming plan were my main focus. 
 
