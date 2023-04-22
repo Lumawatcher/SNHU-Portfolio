@@ -14,6 +14,9 @@ KEY:
 - CS 305 - Software Security
 - CS 320 - Software Testing, Automation and Quality Assurance
 - CS 360 - Mobile Architecture and Programming
+- CS 330 - Computational Graphics and Visualization
+- CS 340 - Client/Server Development
+- CS 410 - Software Reverse Engineering
 
 NOTE: This portfolio is not a comprehensive list of courses or projects I completed at SNHU, merely the courses and related projects I felt were relevant to my development as a programmer and merited extended reflection. Additional relevant courses that I did not write reflections for are included below.
 
