@@ -1,0 +1,19 @@
+﻿  Main.cpp
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(79,38): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(512,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(694,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(695,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(699,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(700,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(702,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(703,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(717,30): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(978,23): warning C4018: '<': signed/unsigned mismatch
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(981,27): warning C4018: '<': signed/unsigned mismatch
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(1045,52): warning C4244: '=': conversion from 'GLfloat' to 'GLuint', possible loss of data
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(1051,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(1007,17): warning C4101: 'uy': unreferenced local variable
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(1007,21): warning C4101: 'uz': unreferenced local variable
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(1007,13): warning C4101: 'ux': unreferenced local variable
+C:\Dev\Projects\School Assignments\3dScene\Main.cpp(1085,15): warning C4244: 'initializing': conversion from 'GLfloat' to 'GLuint', possible loss of data
+  3dScene.vcxproj -> C:\Dev\Projects\School Assignments\3dScene\Debug\3dScene.exe
