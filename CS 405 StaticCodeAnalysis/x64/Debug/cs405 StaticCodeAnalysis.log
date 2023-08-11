@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp(52,1): warning C4297: 'MySpecialType::DontThrow': function assumed not to throw an exception but does
+C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp(52,1): message : __declspec(nothrow), throw(), noexcept(true), or noexcept was specified on the function
+C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp(129,5): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+  cs405 StaticCodeAnalysis.vcxproj -> C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\x64\Debug\cs405 StaticCodeAnalysis.exe

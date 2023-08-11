@@ -1,0 +1,4 @@
+Source.a1:Debug|Win32:C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp
+Source.a2:Release|Win32:C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp
+Source.a3:Debug|x64:C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp
+Source.a4:Release|x64:C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp

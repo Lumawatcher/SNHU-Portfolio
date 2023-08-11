@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="2491548156399995022">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cassert&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="5" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;numeric&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;numeric&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="6" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;set&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="8" column="0"/>
+        </error>
+        <error id="assignmentInAssert" severity="warning" msg="Assert statement modifies &apos;z&apos;." verbose="Variable &apos;z&apos; is modified inside assert statement. Assert statements are removed from release builds so the code inside assert statement is not executed. If the code is needed also in release builds, this is a bug." cwe="398" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="127" column="14"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="assertWithSideEffect" severity="warning" msg="Assert statement calls a function which may have desired side effects: &apos;my_function&apos;." verbose="Non-pure function: &apos;my_function&apos; is called inside assert statement. Assert statements are removed from release builds so the code inside assert statement is not executed. If the code is needed also in release builds, this is a bug." cwe="398" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="129" column="12"/>
+            <symbol>my_function</symbol>
+        </error>
+        <error id="uselessAssignmentPtrArg" severity="warning" msg="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" verbose="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" cwe="398" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="109" column="5"/>
+        </error>
+        <error id="autoVariables" severity="error" msg="Address of local auto-variable assigned to a function parameter." verbose="Dangerous assignment - the function parameter is assigned the address of a local auto-variable. Local auto-variables are reserved from the stack which is freed when the function ends. So the pointer to a local variable is invalid after the function ends." cwe="562" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="59" column="5"/>
+        </error>
+        <error id="compareBoolExpressionWithInt" severity="warning" msg="Comparison of a boolean expression with an integer other than 0 or 1." verbose="Comparison of a boolean expression with an integer other than 0 or 1." cwe="398" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="129" column="26"/>
+        </error>
+        <error id="returnNonBoolInBooleanFunction" severity="style" msg="Non-boolean value returned from function returning bool" verbose="Non-boolean value returned from function returning bool" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="98" column="5"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;count==1000&apos; is redundant or the array &apos;buf[10]&apos; is accessed at index 1000, which is out of bounds." verbose="Either the condition &apos;count==1000&apos; is redundant or the array &apos;buf[10]&apos; is accessed at index 1000, which is out of bounds." cwe="788" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="66" column="12" info="Array index out of bounds"/>
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="65" column="15" info="Assuming that condition &apos;count==1000&apos; is not redundant"/>
+        </error>
+        <error id="uninitMemberVarPrivate" severity="warning" msg="Member variable &apos;A::x&apos; is not initialized in the copy constructor." verbose="Member variable &apos;A::x&apos; is not initialized in the copy constructor." cwe="398" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="42" column="5"/>
+            <symbol>A::x</symbol>
+        </error>
+        <error id="compareValueOutOfTypeRangeError" severity="style" msg="Comparing expression of type &apos;bool&apos; against value 3. Condition is always false." verbose="Comparing expression of type &apos;bool&apos; against value 3. Condition is always false." cwe="398" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="129" column="29"/>
+        </error>
+        <error id="throwInNoexceptFunction" severity="error" msg="Exception thrown in function declared not to throw exceptions." verbose="Exception thrown in function declared not to throw exceptions." cwe="398" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="52" column="9"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;tok&apos; is redundant or there is possible null pointer dereference: tok." verbose="Either the condition &apos;tok&apos; is redundant or there is possible null pointer dereference: tok." cwe="476" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="109" column="11" info="Null pointer dereference"/>
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="108" column="12" info="Assuming that condition &apos;tok&apos; is not redundant"/>
+            <symbol>tok</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;buf&apos; can be reduced." verbose="The scope of the variable &apos;buf&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="64" column="9"/>
+            <symbol>buf</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;x&apos; shadows outer variable" verbose="Local variable &apos;x&apos; shadows outer variable" cwe="398" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="133" column="13" info="Shadow variable"/>
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="117" column="9" info="Shadowed declaration"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;y&apos; shadows outer variable" verbose="Local variable &apos;y&apos; shadows outer variable" cwe="398" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="134" column="13" info="Shadow variable"/>
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="118" column="9" info="Shadowed declaration"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;z&apos; shadows outer variable" verbose="Local variable &apos;z&apos; shadows outer variable" cwe="398" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="135" column="13" info="Shadow variable"/>
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="119" column="9" info="Shadowed declaration"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="invalidContainer" severity="error" msg="Using iterator to local container &apos;items&apos; that may be invalid." verbose="Using iterator to local container &apos;items&apos; that may be invalid." cwe="664" inconclusive="true" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="87" column="32"/>
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="82" column="22" info="Variable created here."/>
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="89" column="19" info="After calling &apos;erase&apos;, iterators or references to the container&apos;s data may be invalid ."/>
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="87" column="37" info="Assuming condition is true."/>
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="88" column="19" info="Assuming condition is true."/>
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="88" column="19" info="Assuming condition is true."/>
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="87" column="28" info="Iterator to container is created here."/>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="class member &apos;A::x&apos; is never used." verbose="class member &apos;A::x&apos; is never used." cwe="563" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="41" column="9"/>
+            <symbol>A::x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;buf[count]&apos; is assigned a value that is never used." verbose="Variable &apos;buf[count]&apos; is assigned a value that is never used." cwe="563" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="66" column="20"/>
+            <symbol>buf[count]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tok&apos; is assigned a value that is never used." verbose="Variable &apos;tok&apos; is assigned a value that is never used." cwe="563" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="109" column="9"/>
+            <symbol>tok</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="117" column="9"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp">
+            <location file="C:\Dev\Projects\School Assignments\cs405 StaticCodeAnalysis\Source.cpp" line="118" column="9"/>
+            <symbol>y</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp:56:6" call-funcname="foo" call-argnr="1" file="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp" line="144" col="8" call-argexpr="&amp;c" call-argvaluetype="7" call-argvalue="4"/>  </FileInfo>
+  <FileInfo check="Class">
+<class name="C" file="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp" line="28" col="1" hash="15616378967481604001"/>
+<class name="A" file="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp" line="39" col="1" hash="10953491163236756941"/>
+<class name="MySpecialType" file="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp" line="45" col="1" hash="14528654546662602654"/>
+<class name="Token" file="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp" line="101" col="1" hash="5755436925175674289"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp:56:6" my-argnr="1" my-argname="a" file="C:/Dev/Projects/School Assignments/cs405 StaticCodeAnalysis/Source.cpp" line="59" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="is_type" lineNumber="31"/>
+    <functiondecl functionName="DontThrow" lineNumber="50"/>
+    <functiondecl functionName="foo" lineNumber="56"/>
+    <functiondecl functionName="work_with_arrays" lineNumber="62"/>
+    <functiondecl functionName="do_something_useless" lineNumber="69"/>
+    <functiondecl functionName="vector_test" lineNumber="80"/>
+    <functiondecl functionName="my_function" lineNumber="95"/>
+    <functiondecl functionName="next" lineNumber="103"/>
+    <functiondecl functionName="foo" lineNumber="106"/>
+    <functiondecl functionName="main" lineNumber="114"/>
+    <functioncall functionName="A"/>
+    <functioncall functionName="assert"/>
+    <functioncall functionName="begin"/>
+    <functioncall functionName="end"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="find"/>
+    <functioncall functionName="foo"/>
+    <functioncall functionName="is_type"/>
+    <functioncall functionName="my_function"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="push_back"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="vector_test"/>
+    <functioncall functionName="work_with_arrays"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,11 @@
+is_type call:[end,find,is_type] noreturn:[is_type]
+A
+DontThrow
+foo
+work_with_arrays
+do_something_useless
+vector_test call:[begin,end,erase,push_back] noreturn:[erase]
+my_function global:[a]
+next
+foo call:[next]
+main call:[assert,foo,my_function,vector_test,work_with_arrays]

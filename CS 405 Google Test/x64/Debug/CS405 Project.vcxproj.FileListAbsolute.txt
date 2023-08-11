@@ -1,0 +1,4 @@
+C:\Dev\Projects\School Assignments\CS405 Project\x64\Debug\CS405 Project.vcxproj.CopyComplete
+C:\Dev\Projects\School Assignments\CS405 Project\x64\Debug\CS405 Project.exe
+C:\Dev\Projects\School Assignments\CS405 Project\x64\Debug\gtest.pdb
+C:\Dev\Projects\School Assignments\CS405 Project\x64\Debug\gtest_main.pdb
