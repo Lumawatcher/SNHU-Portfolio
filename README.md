@@ -16,8 +16,10 @@ KEY:
 - CS 350 - Emerging System Architecture and Technology
 - CS 360 - Mobile Architecture and Programming
 - CS 370 - Current/Emerging Trends in Computer Science
+- CS 405 - Secure Coding
 - CS 410 - Software Reverse Engineering
 - CS 465 - Full Stack Development I
+- CS 470 - Full Stack Development II
 - IT 140 - Intro to Scripting
 - IT 145 - Foundation in Application Development
 
@@ -26,5 +28,3 @@ NOTE: This portfolio is not a comprehensive list of courses or projects I comple
 Additional relevant courses that I did not write reflections for are included below.
 - MAT 350 - Applied Linear Algebra - Used Matlab to apply linear algebra principles to networking and image compression
 - CS 319 - UI/UX Design and Development - Explored different user interface principles, and practiced implementing user feedback into design iterations.
-
-//TODO: Include a program reflection when I graduate
